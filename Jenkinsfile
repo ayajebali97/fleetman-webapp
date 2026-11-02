@@ -2,7 +2,7 @@ def commit_id
 pipeline {
     agent any
     environment {
-        IMAGE = 'TON_USER_DOCKERHUB/fleetman-webapp'
+        IMAGE = 'ayajebali97/fleetman-webapp'
     }
     stages {
         stage('Preparation') {
